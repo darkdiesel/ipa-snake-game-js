@@ -1,6 +1,6 @@
 {
   "name": "ipa-snake-js-game",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Adaptation of the classic game snake",
   "main": "dist/js/ipa-snake-game.js",
   "module": "dist/js/ipa-snake-game.esm.js",
