@@ -1,11 +1,26 @@
 {
-  "name": "ipa-snake-js-game",
+  "name": "@darkdiesel/ipa-snake-js-game",
   "version": "1.0.2",
   "description": "Adaptation of the classic game snake",
+  "keywords": [
+    "game",
+    "javascript",
+    "sass",
+    "css",
+    "snake"
+  ],
+  "homepage": "https://github.com/darkdiesel/ipa-snake-game-js#readme",
+  "bugs": {
+    "url": "https://github.com/darkdiesel/ipa-snake-game-js/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/darkdiesel/ipa-snake-game-js.git"
+  },
+  "license": "GPL-3.0",
+  "author": "Igor Peshkov",
+  "type": "commonjs",
   "main": "dist/js/ipa-snake-game.js",
-  "module": "dist/js/ipa-snake-game.esm.js",
-  "sass": "src/scss/ipa-snake-game.scss",
-  "style": "dist/css/ipa-snake-game.min.css",
   "directories": {
     "example": "examples"
   },
@@ -18,19 +33,6 @@
     "serve": "webpack serve --open",
     "clear-cache": "cd ./node_modules && rm -r ./.cache"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/darkdiesel/ipa-snake-game-js"
-  },
-  "keywords": [
-    "game",
-    "javascript",
-    "sass",
-    "css",
-    "snake"
-  ],
-  "author": "Igor Peshkov",
-  "license": "GPL-3.0",
   "devDependencies": {
     "autoprefixer": "^10.5.0",
     "copy-webpack-plugin": "^13.0.1",
@@ -56,7 +58,7 @@
     "webpack-dev-server": "^5.2.5",
     "webpack-remove-empty-scripts": "^1.1.1"
   },
-  "dependencies": {
-    
-  }
+  "module": "dist/js/ipa-snake-game.esm.js",
+  "sass": "src/scss/ipa-snake-game.scss",
+  "style": "dist/css/ipa-snake-game.min.css"
 }
